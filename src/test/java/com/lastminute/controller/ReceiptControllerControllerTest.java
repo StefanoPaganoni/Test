@@ -48,7 +48,7 @@ public class ReceiptControllerControllerTest {
 					.andExpect(content().string(containsString("16.49")));
 		} catch (Exception e) {
 			logger.error(e.getMessage());
-			e.printStackTrace();
+			
 		}
 	}
 	
@@ -68,7 +68,7 @@ public class ReceiptControllerControllerTest {
 					.andExpect(content().string(containsString("10.50")));
 		} catch (Exception e) {
 			logger.error(e.getMessage());
-			e.printStackTrace();
+			
 		}
 	}
 	
@@ -90,7 +90,7 @@ public class ReceiptControllerControllerTest {
 					.andExpect(content().string(containsString("74.68")));
 		} catch (Exception e) {
 			logger.error(e.getMessage());
-			e.printStackTrace();
+			
 		}
 	}
 	
@@ -106,7 +106,7 @@ public class ReceiptControllerControllerTest {
 					.andExpect(content().string(containsString("Validation failed for argument")));
 		} catch (Exception e) {
 			logger.error(e.getMessage());
-			e.printStackTrace();
+			
 		}
 	}
 	
