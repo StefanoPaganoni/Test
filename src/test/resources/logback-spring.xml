@@ -8,25 +8,16 @@
             </Pattern>
         </layout>
      </appender>   
-    <appender name="SpringBoot"  class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOG_PATH}/Test-spring-boot.log</file>
+    <appender name="SpringBoot"  class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
         </encoder>
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${LOG_PATH}/${HOSTNAME}-%d{yyyy,aux}/Test-spring-boot-%d.log</fileNamePattern>
-        </rollingPolicy>
     </appender>
     
-    <appender name="Application"  class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOG_PATH}/TestLastminute.log</file>
+    <appender name="Application"  class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
             <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
         </encoder>
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <!-- rollover daily and when the file reaches 50 MegaBytes -->
-            <fileNamePattern>${LOG_PATH}/${HOSTNAME}-%d{yyyy,aux}/TestLastminute-%d.log</fileNamePattern>
-        </rollingPolicy>
     </appender>
         
     <!-- LOG everything at INFO level -->
