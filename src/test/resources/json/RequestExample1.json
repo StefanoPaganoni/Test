@@ -1,0 +1,26 @@
+{
+   "items":[
+      {
+         "imported":false,
+         "category":"BOOK",
+         "itemName":"Stephen King - Insomnia",
+         "itemPrice":"12.49",
+         "quantity": 1
+      },
+      {
+         "imported":false,
+         "category":"MUSIC",
+         "itemName":"Metallica - Black Album",
+         "itemPrice":"14.99",
+         "quantity": 1
+         
+      },
+      {
+         "imported":false,
+         "category":"FOOD",
+         "itemName":"Chocolate bar",
+         "itemPrice":"0.85",
+         "quantity": 1
+      }
+   ]
+}

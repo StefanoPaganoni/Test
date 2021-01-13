@@ -1,0 +1,32 @@
+{
+   "items":[
+      {
+         "imported":true,
+         "category":"COSMETIC",
+         "itemName":"Perfume",
+         "itemPrice":"27.99",
+         "quantity": 1
+      },
+      {
+         "imported":false,
+         "category":"COSMETIC",
+         "itemName":"Perfume not imported",
+         "itemPrice":"18.99",
+         "quantity": 1
+      },
+      {
+         "imported":false,
+         "category":"MEDICAL",
+         "itemName":"Headache pill",
+         "itemPrice":"9.75",
+         "quantity": 1
+      },
+      {
+         "imported":true,
+         "category":"FOOD",
+         "itemName":"Chocolate",
+         "itemPrice":"11.25",
+         "quantity": 1
+      }
+   ]
+}

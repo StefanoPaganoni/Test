@@ -1,0 +1,18 @@
+{
+   "items":[
+      {
+         "imported":true,
+         "category":"FOOD",
+         "itemName":"Box of Chocolates",
+         "itemPrice":"10.00",
+         "quantity": 1
+      },
+      {
+         "imported":true,
+         "category":"COSMETIC",
+         "itemName":"Perfume",
+         "itemPrice":"47.50",
+         "quantity": 1
+      }
+   ]
+}
